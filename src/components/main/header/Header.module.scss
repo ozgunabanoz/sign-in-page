@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  text-align: right;
+  font-weight: 600;
+
+  & a {
+    margin-left: 4rem;
+    text-decoration: none;
+    color: rgb(110, 108, 108);
+  }
+}

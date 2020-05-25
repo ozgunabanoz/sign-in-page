@@ -1,0 +1,51 @@
+.container {
+  border: 2px solid rgb(155, 150, 150);
+  padding: 1rem;
+  box-shadow: 0 0 0.75rem rgba(#000, 0.15);
+
+  & .form--input {
+    outline: none;
+    border: 0;
+    font-size: 1.6rem;
+    margin-left: 1rem;
+  }
+
+  &:focus,
+  &:active,
+  &:visited,
+  &:hover {
+    border: 2px solid rgb(106, 173, 196);
+  }
+}
+
+.left {
+  text-align: left;
+
+  & a {
+    text-decoration: none;
+    color: rgb(48, 162, 207);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.right {
+  text-align: right;
+}
+
+button {
+  font-size: 1.6rem;
+  padding: 1rem;
+  background-color: rgb(48, 162, 207);
+  color: white;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 0 0.75rem rgba(#000, 0.15);
+
+  &:hover {
+    cursor: pointer;
+  }
+}

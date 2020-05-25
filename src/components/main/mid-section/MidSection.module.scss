@@ -1,0 +1,61 @@
+.title {
+  font-size: 5rem;
+  font-weight: 500;
+  color: black;
+  text-align: left;
+
+  &-bold {
+    font-weight: 900;
+  }
+}
+
+.headline {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.composition {
+  position: relative;
+
+  & .box {
+    width: 90%;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0 0 0.75rem rgba(#000, 0.15);
+    background-color: white;
+
+    &--b1 {
+      width: 90%;
+      padding-top: 50%;
+      right: 0;
+    }
+
+    &--b2 {
+      width: 50%;
+      padding-top: 7.5%;
+      top: 17rem;
+      left: 0;
+    }
+
+    &--b3 {
+      width: 50%;
+      padding-top: 7.5%;
+      top: 23rem;
+      left: -1rem;
+    }
+
+    &--b4 {
+      width: 50%;
+      padding-top: 7.5%;
+      top: 29rem;
+      left: -2rem;
+    }
+
+    &--b5 {
+      width: 50%;
+      padding-top: 50%;
+      top: 10rem;
+      right: -3rem;
+    }
+  }
+}

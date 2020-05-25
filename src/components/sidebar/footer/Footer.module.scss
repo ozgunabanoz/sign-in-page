@@ -1,0 +1,14 @@
+.container {
+  position: fixed;
+  bottom: 10rem;
+  width: 100%;
+
+  & a {
+    text-decoration: none;
+    color: rgb(48, 162, 207);
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
